@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="android"></dbname>
+    <version value="1"></version>
+    <storage value="external"></storage>
+    <list>
+        <mapping class="com.wlsj2021.myapplication.bean.db.Banner"></mapping>
+        <mapping class="com.wlsj2021.myapplication.bean.db.Article"></mapping>
+        <mapping class="com.wlsj2021.myapplication.bean.db.ProjectClassify"></mapping>
+        <mapping class="com.wlsj2021.myapplication.bean.db.Tree"></mapping>
+        <mapping class="com.wlsj2021.myapplication.bean.db.Collect"></mapping>
+        <mapping class="com.wlsj2021.myapplication.bean.db.Author"></mapping>
+        <mapping class="com.wlsj2021.myapplication.bean.db.Rank"></mapping>
+    </list>
+</litepal>
