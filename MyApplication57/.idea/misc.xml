@@ -46,6 +46,8 @@
         <entry key="..\:/Users/hui/AndroidStudioProjects/MyApplication57/app/src/main/res/menu/toolbar_menu.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/AndroidStudioProjects/MyApplication57/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/hui/AndroidStudioProjects/MyApplication57/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/edit_shap.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/network_error.xml" value="0.36614583333333334" />
       </map>
     </option>
@@ -55,5 +57,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.36614583333333334" />
+      </ProjectState>
+    </option>
   </component>
 </project>
