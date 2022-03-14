@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wlsj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="1"
+        wlsj:layout_constraintEnd_toEndOf="parent"
+        wlsj:layout_constraintHorizontal_bias="0.848"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:text="2"
+        wlsj:layout_constraintEnd_toEndOf="parent"
+        wlsj:layout_constraintHorizontal_bias="0.882"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="Button"
+        wlsj:layout_constraintEnd_toEndOf="parent"
+        wlsj:layout_constraintHorizontal_bias="0.899"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toTopOf="parent" />
+
+    <!--    app:srcCompat ="@drawable/v_anim"-->
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:text="Button"
+        wlsj:layout_constraintEnd_toEndOf="parent"
+        wlsj:layout_constraintHorizontal_bias="0.899"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        wlsj:layout_constraintBottom_toBottomOf="parent"
+        wlsj:layout_constraintEnd_toEndOf="parent"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toBottomOf="@+id/crView" />
+
+    <com.wlsj2021.myapplication.view.CrView
+        android:id="@+id/crView"
+        android:layout_width="137dp"
+        android:layout_height="@dimen/dp_72"
+        android:layout_marginTop="148dp"
+        android:onClick="btn_cr_view"
+        android:src="@drawable/ic_baseline_brush_24"
+        wlsj:MyColor="@color/purple_200"
+        wlsj:MySize="20dp"
+        wlsj:MyText="哦要"
+        wlsj:layout_constraintEnd_toStartOf="@+id/button1"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toTopOf="parent"
+        wlsj:srcCompat="@drawable/ic_baseline_brush_24" />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/ic_baseline_brush_24"
+        tools:layout_editor_absoluteX="-65dp"
+        wlsj:layout_constraintBottom_toBottomOf="parent"
+        wlsj:layout_constraintTop_toBottomOf="@+id/crView"
+        wlsj:layout_constraintVertical_bias="0.093" />
+
+    <Button
+        android:id="@+id/button4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btn_home"
+        android:text="home"
+        wlsj:layout_constraintEnd_toStartOf="@+id/button"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btn_Register"
+        android:text="Register"
+        wlsj:layout_constraintEnd_toStartOf="@+id/button1"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toBottomOf="@+id/button4" />
+
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        tools:layout_editor_absoluteX="0dp"
+        wlsj:layout_constraintBottom_toBottomOf="parent"
+        wlsj:layout_constraintTop_toBottomOf="@+id/photoView"
+        wlsj:layout_constraintVertical_bias="0.428" />
+
+    <Button
+        android:onClick="btn_location"
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Button"
+        wlsj:layout_constraintEnd_toEndOf="parent"
+        wlsj:layout_constraintHorizontal_bias="0.498"
+        wlsj:layout_constraintStart_toStartOf="parent"
+        wlsj:layout_constraintTop_toBottomOf="@+id/bmapView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

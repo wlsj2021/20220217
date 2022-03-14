@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    自定义属性 name是属性的名字 format是属性的类型-->
+    <attr name="MyText" format="string"/>
+    <attr name="MyColor" format="color"/>
+    <attr name="MySize" format="dimension"/>
+<!--通过view的名字给view设置declare-styleable-->
+    <declare-styleable name="CrView">
+<!--        在declare-styleable里面设置需要属性，以便于在View里取到-->
+        <attr name="MyText"/>
+        <attr name="MyColor" />
+        <attr name="MySize"/>
+
+
+    </declare-styleable>
+
+
+
+
+
+</resources>
