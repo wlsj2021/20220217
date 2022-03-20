@@ -21,9 +21,10 @@ import org.greenrobot.eventbus.EventBus;
  * @date: 2019/12/18
  * Time: 21:26
  */
-public abstract class BaseActivity<V, P extends BasePresenter<V>> extends AppCompatActivity {
+public abstract class BaseActivity<V, P extends BasePresenter<V>> extends
+        AppCompatActivity implements BaseHandler.BaseHandlerCallBack{
 
-
+    protected BaseHandler mHandler;
 
     protected P mPresenter;
 

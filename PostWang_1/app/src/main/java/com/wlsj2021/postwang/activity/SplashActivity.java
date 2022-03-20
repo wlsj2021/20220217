@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Message;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
@@ -47,6 +48,17 @@ public class SplashActivity extends BaseActivity {
         EventBus.getDefault().register(this);
 
         intoMain();
+
+//        mHandler.sendEmptyMessage(0);
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent=new Intent(SplashActivity.this, RegisterActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 1000);
+
 
     }
 
@@ -93,5 +105,10 @@ public class SplashActivity extends BaseActivity {
                 mSplashContainer.setBackgroundColor(Utils.getColor(MyApplication.getContext()));
             }
         }
+    }
+
+    @Override
+    public void callBack(Message msg) {
+
     }
 }

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.os.Message;
 import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
@@ -88,4 +89,8 @@ public class RegisterActivity extends BaseActivity<Contract.IRegisterView, Regis
 
     }
 
+    @Override
+    public void callBack(Message msg) {
+
+    }
 }
