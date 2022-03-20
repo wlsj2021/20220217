@@ -37,6 +37,7 @@ public class SplashActivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
         getWindow().setStatusBarColor(Utils.getColor(mContext));
+
         setContentView(R.layout.activity_splash);
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         mSplashContainer = findViewById(R.id.splash_container);
