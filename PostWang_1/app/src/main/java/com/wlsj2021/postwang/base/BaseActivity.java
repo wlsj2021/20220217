@@ -59,8 +59,11 @@ public abstract class BaseActivity<V, P extends BasePresenter<V>> extends
 
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+
         getWindow().setStatusBarColor(Utils.getColor(MyApplication.getContext()));
+
 
         mHandler =new BaseHandler(this, new BaseHandler.BaseHandlerCallBack() {
             @Override

@@ -9,11 +9,10 @@
     </style>
 
     <style name="App.Theme.Launch" parent="AppTheme">
+
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowTranslucentStatus">true</item>
-    </style>
-    <style name="article_detail_toolbar">
-        <item name="android:colorControlNormal">#FFFFFFFF</item>
+
     </style>
 
 </resources>

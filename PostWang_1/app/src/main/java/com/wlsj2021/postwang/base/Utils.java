@@ -51,6 +51,7 @@ public class Utils {
      */
     public static int getColor(Context context) {
         SharedPreferences setting = PreferenceManager.getDefaultSharedPreferences(context);
+
         int defaultColor = ContextCompat.getColor(context, R.color.black);
         int color = setting.getInt("color", defaultColor);
         if (color != 0 && Color.alpha(color) != 255) {
@@ -59,5 +60,17 @@ public class Utils {
             return color;
         }
     }
+
+    /**
+     * 设置主题颜色
+     *
+     * @param context
+     * @param color
+     */
+    public static void setColor(Context context, int color) {
+        SharedPreferences setting = PreferenceManager.getDefaultSharedPreferences(context);
+        setting.edit().putInt("color", color).apply();
+    }
+
 
 }

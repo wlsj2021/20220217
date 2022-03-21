@@ -3,6 +3,7 @@
     package="com.wlsj2021.postwang">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".base.MyApplication"
         android:allowBackup="true"
@@ -11,31 +12,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PostWang">
-
         <activity
-            android:theme="@style/App.Theme.Launch"
+            android:name=".activity.SettingActivity"
+            android:exported="true" />
+        <activity
             android:name=".activity.RegisterActivity"
-            android:exported="true">
-
-        </activity>
-
-
+            android:exported="true"
+            android:theme="@style/App.Theme.Launch"></activity>
         <activity
             android:name=".activity.SplashActivity"
             android:theme="@style/App.Theme.Launch">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-
-        <activity android:name=".MainActivity"/>
-
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

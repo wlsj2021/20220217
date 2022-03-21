@@ -195,11 +195,7 @@ class SettingFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedPr
         }
     }
     private fun refreshColor() {
-        val event = Event()
-        event.target = Event.TARGET_HOME
-        event.type = Event.TYPE_REFRESH_COLOR
-        EventBus.getDefault().post(event)
-
+        
         val mainEvent = Event()
         mainEvent.target = Event.TARGET_MAIN
         mainEvent.type = Event.TYPE_REFRESH_COLOR
