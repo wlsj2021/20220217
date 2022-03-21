@@ -53,7 +53,7 @@ public class SplashActivity extends BaseActivity {
         mHandler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(SplashActivity.this, RegisterActivity.class);
+                Intent intent = new Intent(SplashActivity.this, RegisterActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -79,17 +79,15 @@ public class SplashActivity extends BaseActivity {
      */
     private void intoMain() {
 //        mSplashContainer.setBackgroundColor(Utils.getColor(mContext));
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent=new Intent(SplashActivity.this, RegisterActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        }, 1000);
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Intent intent = new Intent(SplashActivity.this, RegisterActivity.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        }, 1000);
     }
-
-
 
 
     @Override
@@ -109,6 +107,20 @@ public class SplashActivity extends BaseActivity {
 
     @Override
     public void callBack(Message msg) {
+
+
+        switch (msg.what) {
+            case 0:
+// Intent intent = new Intent(SplashActivity.this, RegisterActivity.class);
+                break;
+            case 1:
+// do
+                break;
+            case 2:
+// do
+                break;
+        }
+
 
     }
 }

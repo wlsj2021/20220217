@@ -9,21 +9,25 @@ import java.lang.ref.WeakReference;
 
 public class BaseHandler  extends Handler {
 
-    final WeakReference<AppCompatActivity> act;
+    final WeakReference<BaseActivity> activity;
     final WeakReference<BaseHandlerCallBack> callBack;
 
-    public BaseHandler(AppCompatActivity c, BaseHandlerCallBack b) {
-        act = new WeakReference<>(c);
-        callBack = new WeakReference<>(b);
+    public BaseHandler(BaseActivity appCompatActivity, BaseHandlerCallBack baseHandlerCallBack) {
+        activity = new WeakReference<BaseActivity>(appCompatActivity);
+        callBack = new WeakReference<BaseHandlerCallBack>(baseHandlerCallBack);
     }
 
     @Override
     public void handleMessage(Message msg) {
         super.handleMessage(msg);
-        AppCompatActivity c = act.get();
-        BaseHandlerCallBack b = callBack.get();
-        if (c != null && b != null) {
-            b.callBack(msg);
+        BaseActivity appCompatActivity = activity.get();
+        BaseHandlerCallBack baseHandlerCallBack = callBack.get();
+
+        if (appCompatActivity != null && baseHandlerCallBack != null) {
+
+            baseHandlerCallBack.callBack(msg);
+
+
         }
     }
 

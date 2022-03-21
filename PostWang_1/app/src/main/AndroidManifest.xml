@@ -11,12 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PostWang">
+
         <activity
             android:theme="@style/App.Theme.Launch"
             android:name=".activity.RegisterActivity"
             android:exported="true">
 
         </activity>
+
 
         <activity
             android:name=".activity.SplashActivity"
@@ -30,7 +32,10 @@
 
         </activity>
 
+
         <activity android:name=".MainActivity"/>
+
+
     </application>
 
 </manifest>

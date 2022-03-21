@@ -4,6 +4,7 @@ package com.wlsj2021.postwang.base;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Message;
 import android.view.View;
 import android.view.WindowManager;
 
@@ -61,6 +62,14 @@ public abstract class BaseActivity<V, P extends BasePresenter<V>> extends
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
         getWindow().setStatusBarColor(Utils.getColor(MyApplication.getContext()));
 
+        mHandler =new BaseHandler(this, new BaseHandler.BaseHandlerCallBack() {
+            @Override
+            public void callBack(Message msg) {
+
+            }
+        });
+
+
         init(savedInstanceState);
 //        //沉浸式
 //        getWindow().getDecorView().setOnSystemUiVisibilityChangeListener(new View.OnSystemUiVisibilityChangeListener() {
@@ -81,7 +90,7 @@ public abstract class BaseActivity<V, P extends BasePresenter<V>> extends
         }
     }
 
-//    //沉浸式
+    //    //沉浸式
 //    @Override
 //    public void onWindowFocusChanged(boolean hasFocus) {
 //        super.onWindowFocusChanged(hasFocus);
