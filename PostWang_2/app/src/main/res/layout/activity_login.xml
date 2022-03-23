@@ -49,13 +49,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password" />
 
+    <!--        android:background="@null"-->
+
     <Button
         android:onClick="goRegister"
         android:id="@+id/go_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@null"
         android:text="注册"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"

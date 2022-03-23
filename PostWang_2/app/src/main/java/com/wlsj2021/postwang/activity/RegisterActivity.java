@@ -70,7 +70,7 @@ public class RegisterActivity extends BaseActivity<Contract.IRegisterView, Regis
     }
     public void request(View view) {
 
-        mPresenter.register("wang5", "666666");
+        mPresenter.register("wang5555", "666666");
 
     }
 

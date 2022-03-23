@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
@@ -61,6 +62,7 @@ public class LoginActivity extends BaseActivity<Contract.ILoginView, LoginPresen
         mPassword = findViewById(R.id.password);
         mLoginButton = findViewById(R.id.login);
         mRegister = findViewById(R.id.go_register);
+        mToolbar = findViewById(R.id.login_toolbar);
 
 
 
@@ -80,15 +82,15 @@ public class LoginActivity extends BaseActivity<Contract.ILoginView, LoginPresen
 
     private void initToolbar() {
         getWindow().setStatusBarColor(Utils.getColor(mContext));
-        mToolbar.setBackgroundColor(Utils.getColor(mContext));
-        mToolbar.setTitle("登录");
-        mToolbar.setTitleTextColor(Color.WHITE);
-        setSupportActionBar(mToolbar);
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            getSupportActionBar().setDisplayShowTitleEnabled(true);
-        }
+//        mToolbar.setBackgroundColor(Utils.getColor(mContext));
+//        mToolbar.setTitle("登录");
+//        mToolbar.setTitleTextColor(Color.WHITE);
+//        setSupportActionBar(mToolbar);
+//        if (getSupportActionBar() != null) {
+//            getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
+//            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//            getSupportActionBar().setDisplayShowTitleEnabled(true);
+//        }
     }
 
     @Override
@@ -112,7 +114,7 @@ public class LoginActivity extends BaseActivity<Contract.ILoginView, LoginPresen
                 event.target = Event.TARGET_MAIN;
                 event.type = Event.TYPE_LOGIN;
                 EventBus.getDefault().post(event);
-
+                Toast.makeText(this, "登录成功", Toast.LENGTH_SHORT).show();
                 finish();
             } else {
                 ToastUtils.showShort(loginData.getErrorMsg());
