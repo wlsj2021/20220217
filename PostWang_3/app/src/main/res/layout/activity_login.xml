@@ -4,13 +4,14 @@
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:focusable="true"
     android:focusableInTouchMode="true">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/register_toolbar"
+        android:id="@+id/login_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleTextColor="@color/always_white_text"
+        app:titleTextColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -20,12 +21,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:hint="@string/input_username"
+        android:hint="请输入用户名"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/register_toolbar" />
+        app:layout_constraintTop_toBottomOf="@id/login_toolbar" />
 
-    <com.wlsj2021.myapplication.Custom.CustomEditText
+    <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,38 +34,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/username"
-        custom:customHint="@string/input_password" />
-
-    <com.wlsj2021.myapplication.Custom.CustomEditText
-        android:id="@+id/repassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password"
-        custom:customHint="@string/input_repassword" />
+       />
 
     <Button
-        android:id="@+id/register"
+        android:onClick="onLogin"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@drawable/edit_shap"
-        android:text="@string/register"
-        android:textColor="@color/always_white_text"
+        android:text="登录"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/repassword" />
+        app:layout_constraintTop_toBottomOf="@id/password" />
 
-    <com.wlsj2021.myapplication.Custom.loading.LoadingView
-        android:id="@+id/loading_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <!--        android:background="@null"-->
+
+    <Button
+        android:onClick="goRegister"
+        android:id="@+id/go_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="注册"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/login" />
 
+
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
