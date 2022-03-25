@@ -1,0 +1,58 @@
+package com.wlsj2021.postwang.base;
+
+import android.text.TextUtils;
+
+import com.wlsj2022.wlsj.store.SharePreferencesStore;
+
+
+/**
+ * Created with Android Studio.
+ * Description: 判断登陆状态
+ *
+ * @author: wlsj
+ * @date: 2020/01/01
+ * Time: 13:46
+ */
+public class LoginUtils {
+
+    /**
+     * 获取当前登录用户信息
+     *
+     * @return
+     */
+    public static String getLoginUser() {
+        long expire = SharePreferencesStore.getInstance("cookie").getLong("cookie_expire", 0);
+        if (expire > System.currentTimeMillis()) {
+            String cookies = SharePreferencesStore.getInstance("cookie").getString("user");
+            if (!TextUtils.isEmpty(cookies)) {
+                for (String cookie : cookies.split(";")) {
+                    if (TextUtils.equals("loginUserName", cookie.split("=")[0])) {
+                        if (!TextUtils.isEmpty(cookie.split("=")[1])) {
+                            return cookie.split("=")[1];
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+        return "";
+    }
+
+    /**
+     * 清空登录信息
+     */
+    public static void clearLoginInfo() {
+        SharePreferencesStore.getInstance("cookie").put("user", "");
+    }
+
+    /**
+     * 是否已经登录
+     *
+     * @return
+     */
+    public static boolean isLogin() {
+        return !TextUtils.isEmpty(getLoginUser());
+    }
+
+}
+

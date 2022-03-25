@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.wlsj2022.wlsj.shortvideos.VideoPlayRecyclerView
+        android:id="@+id/rvVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/ibBack"
+        android:scaleType="fitXY"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:src="@drawable/icon_back" />
+
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/short_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <ImageView
+            android:src="@drawable/short_fabulous_w"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/short_comment"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/short_forward"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
