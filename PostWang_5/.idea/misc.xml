@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hui/AndroidStudioProjects/PostWang/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/PostWang_1/app/src/main/res/layout/activity_main.xml" value="0.36231884057971014" />
+        <entry key="..\:/Users/hui/Desktop/20220217/PostWang_1/app/src/main/res/layout/activity_setting.xml" value="0.3515625" />
+        <entry key="..\:/Users/hui/Desktop/20220217/PostWang_1/app/src/main/res/layout/activity_splash.xml" value="0.36231884057971014" />
+        <entry key="..\:/Users/hui/Desktop/20220217/PostWang_2/app/src/main/res/layout/activity_login.xml" value="0.353713768115942" />
+        <entry key="..\:/Users/hui/Desktop/PostWang/app/src/main/res/layout/activity_Splash.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_1/app/src/main/res/drawable-v24/edit_shap.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_1/app/src/main/res/layout/activity_login.xml" value="0.3582427536231884" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_3/app/src/main/res/layout/activity_login.xml" value="0.3401268115942029" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_3/app/src/main/res/layout/activity_main.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_3/app/src/main/res/layout/activity_splash.xml" value="0.3401268115942029" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_3/app/src/main/res/layout/fragment.xml" value="0.3401268115942029" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_3/app/src/main/res/menu/navigation_bottom_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/collect_selector.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/collect_selector_icon.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/short_gradient_video_bottom.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/short_gradient_video_top.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/short_pb_play_progress.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/title_lable_green.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/title_lable_red.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/drawable/uncollect_selector_icon.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/activity_main.xml" value="0.33016304347826086" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/activity_setting.xml" value="0.33016304347826086" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/activity_splash.xml" value="0.33016304347826086" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/article_item.xml" value="0.32019927536231885" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/duan_main.xml" value="0.33016304347826086" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/fragment.xml" value="0.33016304347826086" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/network_error.xml" value="0.32019927536231885" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/layout/short_video_item.xml" value="0.33016304347826086" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/menu/article_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/menu/collect_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/menu/integral_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/menu/toolbar_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/hui/Desktop/PostWang_4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.38229166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

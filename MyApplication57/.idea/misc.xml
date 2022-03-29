@@ -49,16 +49,36 @@
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable-xxxhdpi/short_gradient_video_bottom.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable-xxxhdpi/short_gradient_video_top.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable-xxxhdpi/short_pb_play_progress.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/collect_selector.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/collect_selector_icon.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/customdialogshape.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/edit_shap.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/flow_selector.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/shape_dialog.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/title_lable_red.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/uncollect_selector_icon.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/drawable/vector_search_bar.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/activity_collect.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/activity_edit_todo.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/activity_register.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/article_item.xml" value="0.3555253623188406" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/dialog_content_circle.xml" value="0.3555253623188406" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/duan_item_main.xml" value="0.3641304347826087" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/duan_main.xml" value="0.3641304347826087" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/flow_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/home_fragment.xml" value="0.3555253623188406" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/home_header_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/homesquare_fragment.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/network_error.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/layout/parentsquare_fragment.xml" value="0.3555253623188406" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/menu/article_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/menu/collect_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/menu/integral_menu.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/menu/navigation_bottom_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hui/Desktop/20220217/MyApplication57/app/src/main/res/menu/toolbar_menu.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="android"></dbname>
+    <version value="1"></version>
+    <storage value="external"></storage>
+    <list>
+        <mapping class="com.wlsj2021.postwang.entity.db.Banner"></mapping>
+        <mapping class="com.wlsj2021.postwang.entity.db.Article"></mapping>
+        <mapping class="com.wlsj2021.postwang.entity.db.Collect"></mapping>
+    </list>
+</litepal>
